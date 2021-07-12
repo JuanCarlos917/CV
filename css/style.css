@@ -44,38 +44,3 @@ body {
 #item4 {
     margin-top: 5px;
 }
-
-.bell-solid.icon {
-    color: #000;
-    position: absolute;
-    margin-left: 5px;
-    margin-top: 2px;
-    width: 9px;
-    height: 10px;
-    border: solid 1px currentColor;
-    background-color: currentColor;
-    border-radius: 5px 5px 0 0;
-}
-
-.bell-solid.icon:before {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 2px;
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    border: solid 1px currentColor;
-    background-color: currentColor;
-}
-
-.bell-solid.icon:after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: -3px;
-    width: 15px;
-    height: 0px;
-    border-top: solid 1px currentColor;
-    border-bottom: solid 1px white;
-}
